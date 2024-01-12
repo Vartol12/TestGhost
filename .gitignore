@@ -61,6 +61,8 @@ sysinfo.txt
 *.unitypackage
 *.app
 
+find ./* -size +100M | cat >> .gitignore
+
 # Crashlytics generated file
 crashlytics-build.properties
 
